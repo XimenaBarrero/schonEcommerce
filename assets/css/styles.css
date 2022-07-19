@@ -49,8 +49,8 @@ nav > ul > li{
   }
 
   .chica{
-      width: 350px;
-      max-width: 350px;
+      width: 300px;
+      max-width: 300px;
   }
   .article{
       padding-bottom: 3rem;
@@ -108,6 +108,14 @@ nav > ul > li{
   .article-list-inner{
       max-width: 992px;
       margin: 0 auto;
+  }
+
+
+  @media screen and (min-width:360px) {
+    .chica{
+        width: 400px;
+        max-width: 400px;
+    }
   }
 
   @media screen and (min-width:1000px) {
