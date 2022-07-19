@@ -52,6 +52,7 @@ nav > ul > li{
 
   .chica{
       width: 400px;
+      max-width: 400px;
   }
   .article{
       padding-bottom: 3rem;
