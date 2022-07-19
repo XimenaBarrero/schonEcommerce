@@ -111,7 +111,7 @@ nav > ul > li{
   }
 
 
-  @media screen and (min-width:320px) {
+  @media screen and (min-width:414px) {
     .chica{
         width: 400px;
         max-width: 400px;
