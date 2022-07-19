@@ -16,12 +16,10 @@ body{
 }
 
 .header-logo{
-    max-width: 100px;
+    max-width: 120px;
 padding-top: 1.5rem;
 }
-a{
-  
-}
+
 nav{
       display: flex;
       background-color: #ffffff;
