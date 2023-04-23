@@ -15,10 +15,19 @@ body{
     background-color: var(--body-color);
 }
 
-.header-logo{
-    max-width: 120px;
-padding-top: 1.5rem;
+.header-box{
+    display: flex;
+    position: relative;
+    padding-bottom: 3rem;
 }
+
+.header-logo{
+display: flex;
+position: absolute;
+max-width: 170px;
+padding-left: 2.3rem;
+}
+
 
 nav{
       display: flex;
@@ -29,6 +38,7 @@ nav{
       position: fixed;
       transition: height .2s;
       width: 100vw;
+      height: 6.5vw;
       z-index: 100;
   }
 
@@ -41,9 +51,11 @@ nav > ul > li{
   .nav-menu li a{
       text-decoration: none;
       color: black;
-      font-size: 1.15rem;
-      padding-right: 2rem;
+      font-size: 16px;
+      padding-right: 3rem;
+      padding-top: 1.7rem;
   }
+
  .nav-menu li a img{
       width: 20px;
   }
